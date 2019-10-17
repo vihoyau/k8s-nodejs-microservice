@@ -1,0 +1,35 @@
+{
+  "name": "kuberctl",
+  "version": "1.0.1",
+  "description": "这份代码为了解决nodejs微服务和k8s部署用的。关于k8s这块，在readme文件中做一定的说明。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vihoyau/k8s-nodejs-microservice.git"
+  },
+  "keywords": [
+    "kubernetes",
+    "github",
+    "microservice",
+    "k8s",
+    "微服务",
+    "nodejs",
+    "node.js",
+    "node",
+    "集群",
+    "分布式"
+  ],
+  "author": "邱伟豪",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vihoyau/k8s-nodejs-microservice/issues"
+  },
+  "homepage": "https://github.com/vihoyau/k8s-nodejs-microservice#readme",
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}

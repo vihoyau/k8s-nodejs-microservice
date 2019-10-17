@@ -1,0 +1,17 @@
+apiVersion:extensions/v1beta1
+kind:Deployment
+metadata:
+  name:node-example-deployment
+spec:
+  replicas:1
+  template:
+    metadatas:
+    labels:
+      app:node-example
+    spec:
+      containners:
+      - name : nodejs-kubernetes
+        image:huseyinbabal/nodejs-kubernetes
+        imagePullPolicy:Always
+        ports:
+        - containerPort :3000
